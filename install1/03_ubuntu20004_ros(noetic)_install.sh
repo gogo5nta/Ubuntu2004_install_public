@@ -103,7 +103,7 @@ sudo apt -y install python3-osrf-pycommon python3-catkin-tools
 
 ## Initialize rosdep
 echo "## Initialize rosdep"
-sudo rosdep init　
+sudo rosdep init
 
 ## rosdep update
 echo "## rosdep update"
