@@ -1,5 +1,5 @@
 #!/bin/bash
-# update 2021.05.06
+# update 2022.04.19
 
 ## *** Reffer ***
 ## ・ROSのインストール (Noetic)
@@ -130,6 +130,7 @@ echo "## Add the catkin_workspace to your ROS environment"
 echo "## Add the catkin_workspace to your ROS environment" >> ~/.bashrc
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
 echo "export ROS_PACKAGE_PATH=~/catkin_ws/src:$ROS_PACKAGE_PATH" >> ~/.bashrc
+source ~/.bashrc
 
 ## Check the ROS environment variables
 echo "## Check the ROS environment variables"
