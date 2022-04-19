@@ -1,0 +1,11 @@
+### Ubuntu20.04.4 + ROS(melodic)
+### update 2022.04.19
+
+numpy
+
+#opencv-python == 4.5.5.64
+#pyrealsense2 ==  2.50.0.3812  
+opencv-python
+pyrealsense2
+
+argparse
