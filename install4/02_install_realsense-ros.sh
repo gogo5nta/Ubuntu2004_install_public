@@ -45,6 +45,10 @@ cd ~/catkin_ws/
 #catkin config --install && catkin clean -y && catkin build
 catkin clean -y && catkin build
 #catkin build
+
+# nano ~/.bashrcに追加すると良いおすすめalias
+# alias rs_camera='roslaunch realsense2_camera rs_camera.launch'
+# alias image_view='rosrun rqt_image_view rqt_image_view'
  
 # 参考:新しい「GNOME端末」を開いてコマンドを実行する方法
 # https://linuxfan.info/gnome-terminal-with-command
