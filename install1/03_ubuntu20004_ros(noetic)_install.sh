@@ -109,13 +109,15 @@ sudo rosdep init
 echo "## rosdep update"
 rosdep update
 
-
 ## Create and initialize the catkin ws
 ## https://demura.net/misc/16533.html
 echo "## Create and initialize the catkin ws"
 mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
 catkin init
+
+# catkin build > catkin init
+# catkin_make  > catkin_init 
 
 ## bulid catkin_ws
 echo "## bulid catkin_ws"
