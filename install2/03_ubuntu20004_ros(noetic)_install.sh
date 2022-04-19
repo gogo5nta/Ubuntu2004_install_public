@@ -117,6 +117,9 @@ mkdir -p ~/catkin_ws/src
 cd ~/catkin_ws
 catkin init
 
+# catkin build > catkin init
+# catkin_make  > catkin_init 
+
 ## bulid catkin_ws
 echo "## bulid catkin_ws"
 cd ~/catkin_ws
