@@ -36,6 +36,7 @@ sudo dpkg -i virtualgl_*_amd64.deb
 # --- ubuntu 18.04 or 20.04 ---
 # echo "Ctl + Alt + F3でCUIに移動。事前に文字化け対策必要"
 # $ sudo systemctl stop gdm
+# echo "Ctl + Alt + F3でCUIに移動。事前に文字化け対策必要"
 
 # echo "setup virtualgl"
 # echo "途中の質問は右を参考 https://virtualgl.org/vgldoc/2_2_1/#hd005001"
