@@ -31,4 +31,7 @@ sudo apt -y install gnome-tweaks
 echo "# install VSCode"
 sudo apt -y install curl
 curl -L https://go.microsoft.com/fwlink/?LinkID=760868 -o vscode.deb
-sudo apt-get install -y ./vscode.deb
+sudo apt -y install ./vscode.deb
+
+# install imagemagic
+sudo apt -y install imagemagick
