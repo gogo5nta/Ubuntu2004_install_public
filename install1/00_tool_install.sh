@@ -34,4 +34,4 @@ curl -L https://go.microsoft.com/fwlink/?LinkID=760868 -o vscode.deb
 sudo apt -y install ./vscode.deb
 
 # install imagemagic
-udo apt -y install imagemagick
+sudo apt -y install imagemagick
