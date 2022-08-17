@@ -39,3 +39,6 @@ sudo apt -y install imagemagick
 # Gtk-Message: Failed to load module "canberra-gtk-module"
 # https://www.web-dev-qa-db-ja.com/ja/gtk/%E3%83%A2%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB%E3%80%8Ccanberragtkmodule%E3%80%8D%E3%81%AE%E8%AA%AD%E3%81%BF%E8%BE%BC%E3%81%BF%E3%81%AB%E5%A4%B1%E6%95%97%E3%81%97%E3%81%BE%E3%81%97%E3%81%9F%E6%97%A2%E3%81%AB%E3%82%A4%E3%83%B3%E3%82%B9%E3%83%88%E3%83%BC%E3%83%AB%E3%81%95%E3%82%8C%E3%81%A6%E3%81%84%E3%81%BE%E3%81%99/961618354/
 sudo apt -y install libcanberra-gtk*
+
+# desktop recorder
+sudo apt -y install kazam
