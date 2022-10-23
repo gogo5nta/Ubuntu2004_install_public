@@ -130,7 +130,12 @@ echo "## Add the catkin_workspace to your ROS environment"
 
 echo "## Add the catkin_workspace to your ROS environment" >> ~/.bashrc
 echo "source ~/catkin_ws/devel/setup.bash" >> ~/.bashrc
-#echo "export ROS_PACKAGE_PATH=~/catkin_ws/src:$ROS_PACKAGE_PATH" >> ~/.bashrc
+
+# https://eng-entrance.com/linux-command-echo#echo-3
+# echo '' > string
+# echo "" > expand value
+#echo 'export ROS_PACKAGE_PATH=~/catkin_ws/src:$ROS_PACKAGE_PATH' >> ~/.bashrc
+
 source ~/.bashrc
 
 ## Check the ROS environment variables
