@@ -4,6 +4,10 @@
 # make directry
 mkdir spec
 
+# hostnamectl
+# https://inno-tech-life.com/dev/linux/kernel-tips/
+hostnamectl > spec/hostnamectl.txt
+
 # Check OS ver and Kernel ver
 echo "# Check OS ver and Kernel ver"
 cat /etc/os-release
