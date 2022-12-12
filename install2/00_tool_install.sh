@@ -42,3 +42,9 @@ sudo apt -y install libcanberra-gtk*
 
 # desktop recorder
 sudo apt -y install kazam
+
+# kernel update GUI
+# https://ubunlog.com/ja/ukuu-abandona-la-licencia-gpl-y-ubuntu-mainline-kernel-installer-ocupa-su-lugar/
+sudo add-apt-repository ppa:cappelikan/ppa
+sudo apt update
+sudo apt install mainline
